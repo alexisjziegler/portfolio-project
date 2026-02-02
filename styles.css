@@ -1,0 +1,54 @@
+header{
+    text-align: center;
+    padding: 40px 20px;
+    font-size:60px;
+    background-color: rgb(206, 71, 255);
+    border-radius: 20px;
+}
+header h1{
+    font-size: 40px;
+}
+nav{
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(117, 255, 253);
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    padding: 10px;
+    flex-wrap:wrap;
+    font-size: 20px;
+    justify-content: center;
+    display:flex;
+    gap: 40px;
+    color: white;
+}
+main{
+    background: white;
+}
+embed{
+    width: 50%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+img{
+    width: 50%;
+    height:30%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    padding: 15px;
+}
+
+figure{
+    text-align: center;
+}
