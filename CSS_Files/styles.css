@@ -59,7 +59,7 @@ nav{
     color: white;
     border: 3px solid black;
     margin: 15px auto;
-    width: 1000px;
+    width: 70%;
     height: 75px;
 }
 nav ul{
@@ -72,6 +72,7 @@ nav ul{
     gap: 40px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
 }
 
 
@@ -79,18 +80,11 @@ main{
     background: white;
 }
 
-/* Embedded Content and Images */
-embed{
-    width: 50%;
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
+/* Embedded Images */
 
 img{
     width: 50%;
-    height:30%;
+    height: 30%;
     margin-left:auto;
     margin-right:auto;
     display:block;
@@ -126,6 +120,7 @@ footer{
     font-weight: bold;
     flex-wrap: wrap;
     align-self: center;
+    max-width: 100%;
 }
 
 /* Sections */
@@ -136,7 +131,7 @@ footer{
     border-radius: 10px;
     background-color:rgb(117, 255, 253);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 1000px;
+    width: 65%;
     font-size: 20px;
 }
 
@@ -147,7 +142,7 @@ footer{
     border-radius: 10px;
     background-color: rgb(206, 71, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 500px;
+    width: 50%;
     font-weight: bold;
 }
 
@@ -159,6 +154,7 @@ table, th, td{
     text-align: center;
     background-color: blue;
     color: white;
+    width: 50%;
 }
 
 caption{
@@ -166,4 +162,5 @@ caption{
     font-size: 25px;
     margin: 10px;
     color: black;
+    width: 100%;
 }
