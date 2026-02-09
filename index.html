@@ -20,10 +20,10 @@
 
     </head>
 
-    <body>
-        
-        <!--External JavaScript File-->
-        <script src="JS_Files/scripts.js"></script>
+    <!--External JavaScript File-->
+    <script src="JS_File/scripts.js"></script>
+
+    <body onload="onload()">
 
         <header>
             Alexis Ziegler
@@ -56,6 +56,7 @@
         <main>  
 
             <!--About Section-->
+            <button onclick="toggleSection('about')">Toggle About Me</button>
             <section id="about">
                 <h2>About Me</h2>
                 
@@ -98,6 +99,7 @@
         <hr>
 
         <!--Skills Section-->
+        <button onclick="toggleSection('skills')">Toggle Skills</button>
         <section id="skills">
 
             <h2>Skills</h2>
@@ -151,6 +153,7 @@
         <hr>
 
         <!--Projects Section-->
+        <button onclick="toggleSection('projects')">Toggle Projects</button>
         <section id="projects">
             <h2>Projects</h2>
             
@@ -197,6 +200,7 @@
         <hr>
 
         <!--Experience Section-->
+        <button onclick="toggleSection('experience')">Toggle Experience</button>
         <section id="experience">
             <h2>Work Experience</h2>
 
@@ -222,6 +226,7 @@
         <hr>
         
         <!--Contact Section-->
+        <button onclick="toggleSection('contact')">Toggle Contact Me</button>
         <section id="contact">
             <h2>Contact Me</h2>
             

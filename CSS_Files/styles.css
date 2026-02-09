@@ -164,3 +164,21 @@ caption{
     color: black;
     width: 100%;
 }
+
+/* Buttons */
+button{
+    background-color: rgb(206, 71, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 15px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover{
+    background-color: rgb(117, 255, 253);
+}
