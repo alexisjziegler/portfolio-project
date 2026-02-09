@@ -10,11 +10,6 @@
 
 /* Script for toggling and un-toggling the visibility of the sections */
 
-function onload() {
-    // Get all sections and hide them on page load
-    alert("Welcome to my portfolio!");
-}
-
 function toggleSection(sectionId) {
     const section = document.getElementById(sectionId);
     if (section.style.display === 'none') {
@@ -22,4 +17,14 @@ function toggleSection(sectionId) {
     } else {
         section.style.display = 'none';
     }
+}
+
+/* Alert on page load and unload */
+function onload() {
+    // Get all sections and hide them on page load
+    alert("Welcome to my portfolio!");
+}
+
+function onunload() {
+    alert("Thank you for visiting my portfolio!");
 }
