@@ -25,6 +25,21 @@ function onload() {
     alert("Welcome to my portfolio!");
 }
 
-function onunload() {
+function onUnload() {
     alert("Thank you for visiting my portfolio!");
+}
+
+/* Onmouseover and onmouseout functions */
+function onMouseOver(element) {
+    element.style.width = '15%'
+    element.style.transition = 'width 0.5s';
+    element.style.transition = 'height 0.5s';
+    element.style.height = '30%';
+}
+
+function onMouseOut(element) {
+    element.style.width = '13%';
+    element.style.height = '10%';
+    element.style.transition = 'width 0.5s';
+    element.style.transition = 'height 0.5s';
 }
