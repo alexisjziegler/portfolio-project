@@ -9,7 +9,6 @@
 
 
 /* Script for toggling and un-toggling the visibility of the sections */
-
 function toggleSection(sectionId) {
     const section = document.getElementById(sectionId);
     if (section.style.display === 'none') {

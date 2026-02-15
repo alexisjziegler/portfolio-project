@@ -1,0 +1,36 @@
+/* Variables */
+/* Transition */
+.container div:hover {
+  background-color: #75fffd;
+}
+button:hover {
+  background-color: #75fffd;
+}
+/* Styles */
+.container div {
+  background-color: #ce47ff;
+}
+nav {
+  background-color: #75fffd;
+}
+header {
+  background: linear-gradient(45deg, #ce47ff, #75fffd);
+}
+aside {
+  background-color: #ce47ff;
+}
+footer {
+  background-color: #ce47ff;
+}
+#about,
+#skills,
+#projects,
+#experience {
+  background-color: #75fffd;
+}
+#contact {
+  background-color: #ce47ff;
+}
+button {
+  background-color: #ce47ff;
+}
