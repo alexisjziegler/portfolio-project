@@ -46,7 +46,7 @@ header h2{
 }
 
 /* Navigation Bar */
-nav{
+/*nav{
     border-radius: 10px;
     text-align: center;
     border: 3px solid black;
@@ -65,7 +65,7 @@ nav ul{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
 }
-
+*/
 
 main{
     background: white;
